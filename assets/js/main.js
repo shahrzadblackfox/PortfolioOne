@@ -1,6 +1,6 @@
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
-  navClose = document.getElementById("nave-close");
+  navClose = document.getElementById("nav-close");
 
 if (navToggle) {
   navToggle.addEventListener("click", () => {
