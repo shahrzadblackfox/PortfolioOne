@@ -290,3 +290,124 @@ img{
     display: inline-flex;
     align-items: center;
 }
+
+
+.about-img{
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.about-desc{
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.about-info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color:var(--title-color)
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+
+.about-info-title, .about-info-name{
+    display: block;
+    text-align: center;
+}
+
+.about-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.skills-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 6px;
+}
+
+.skill {
+    padding: 5px;
+    min-width: 5%;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: normal;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.skill:hover{
+    transform: scale(1.2);
+    background-color: var(--first-color);
+    color:#fff
+
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: .9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.labels{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.form-container{
+    margin-top: 20px;
+}
+
+.footer{
+    padding-top: 2rem;
+}
+
+.footer-container{
+    row-gap: 3.5rem;
+}
+
+.footer-bg{
+    background-color: var(--first-color);
+    padding: 2rem 0 3rem;
+    color:#fff
+}
+.footer-title{
+    font-size: var(--h1-font-size);
+    margin-bottom: 1.2rem;
+}
+.footer-sub{
+    font-size: var(--small-font-size);
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    color:black;
+}
+
+.footer-link:hover{
+    color:cornflowerblue;
+}
+
+.footer-copy{
+    margin-top: 20px;
+    font-size: var(--small-font-size);
+    text-align: center;
+    color:#fff;
+}

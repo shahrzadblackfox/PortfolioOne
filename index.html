@@ -39,16 +39,6 @@
                 ><i class="uil uil-briefcase nav-icon"></i> Services</a
               >
             </li>
-            <li class="nav-item">
-              <a href="#portfolio" class="nav-link"
-                ><i class="uil uil-scenery nav-icon"></i> Portfolio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link"
-                ><i class="uil uil-comment-edit nav-icon"></i> Contact</a
-              >
-            </li>
           </ul>
           <i class="uil uil-times nav-close" id="nav-close"></i>
         </div>
@@ -99,7 +89,7 @@
               <h1 class="home-title">Hi, I'm Shahrzad</h1>
               <h3 class="home-sub">Content Writer and an Anime Lover</h3>
               <p class="home-desc">
-                Been writing content since 2010 and Loved watching animation and
+                Been writing content since 2010 and Love watching animation and
                 anime since, I guess FOREVER!
               </p>
               <a href="#contact" class="button button-flex">
@@ -123,6 +113,7 @@
         <div class="about-container container grid">
           <img
             src="assets/imgs/fotor-ai-2023090919212.jpg"
+            class="about-img"
             alt="anime ai profile image"
           />
           <div class="about-data">
@@ -137,26 +128,122 @@
             <div class="about-info">
               <div>
                 <span class="about-info-title">08+ </span>
-                <span class="about-info-name">Years <br> experience </span>
+                <span class="about-info-name"
+                  >Years <br />
+                  experience
+                </span>
               </div>
               <div>
                 <span class="about-info-title">200+ </span>
-                <span class="about-info-name">Completed <br> content projects </span>
+                <span class="about-info-name"
+                  >Completed <br />
+                  content projects
+                </span>
               </div>
               <div>
                 <span class="about-info-title">05+ </span>
-                <span class="about-info-name">Companies  <br> worked </span>
+                <span class="about-info-name"
+                  >Companies <br />
+                  worked
+                </span>
               </div>
             </div>
             <div class="about-buttons">
-              <a href="assets/pdf/Profile.pdf" class="button button-flex"></a>
+              <a
+                download=""
+                href="assets/pdf/Profile.pdf"
+                class="button button-flex"
+              >
+                Download CV <i class="uil uil-download-alt button-icon"></i>
+              </a>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <span class="section-sub">What I know</span>
+
+        <div class="skills-content">
+          <div class="skills-items">
+            <span class="skill">Python</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">TypeScript</span>
+            <span class="skill">SQL</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">PyGame</span>
+            <span class="skill">Translation</span>
+            <span class="skill">Content Writing</span>
+            <span class="skill">Wordpress</span>
+            <span class="skill">Asprite</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <h2 class="section-title">Services</h2>
+        <span class="section-sub">What I can do for you</span>
+
+        <div class="services-container container grid">
+          <h3 class="services-title">Need a Content!?</h3>
+          <p>if you need a content wiriter just contact me!</p>
+        </div>
+        <div class="container form-container">
+          <form action="action_page.php">
+            <label for="fname" class="labels">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+
+            <label for="lname" class="labels">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+            <input
+              type="submit"
+              value="Submit"
+              class="button"
+              style="width: 100%"
+              onclick="return sendEmail();"
+            />
+          </form>
+        </div>
+      </section>
     </main>
 
-    <!-- Footer -->ّ
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-bg">
+        <div class="footer-container container grid">
+          <div>
+            <h1 class="footer-title">Shahrzad</h1>
+            <span class="footer-sub">Content Writer</span>
+          </div>
+          <ul class="footer-links">
+            <li>
+              <a href="#home" class="footer-link"> Home </a>
+            </li>
+            <li>
+              <a href="#about" class="footer-link"> About </a>
+            </li>
+
+            <li>
+              <a href="#services" class="footer-link"> Services</a>
+            </li>
+          </ul>
+        </div>
+        <p class="footer-copy">all rights reserved</p>
+      </div>
+    </footer>
+    ّ
 
     <!-- Scroll -->
 

@@ -20,3 +20,24 @@ function linkAction(){
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n=> n.addEventListener('click', linkAction))
+
+
+const divSort = document.querySelector('.skills-items ');
+const spanSort = divSort.querySelectorAll('.skill');
+
+var words = [];
+
+for (var i = 0 ; i <spanSort.length; i++){
+  words.push(spanSort[i].textContent);
+}
+
+words.sort();
+
+for(var i = 0; i < words.length; i++){
+  spanSort[i].textContent = words[i]
+}
+
+function sendEmail(){
+  event.preventDefault()
+  window.open('mailto:ar6shahrzad@gmail.com');
+}
