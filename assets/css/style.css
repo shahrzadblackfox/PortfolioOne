@@ -388,7 +388,7 @@ input[type=text], select, textarea{
 }
 .footer-title{
     font-size: var(--h1-font-size);
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.8rem
 }
 .footer-sub{
     font-size: var(--small-font-size);
@@ -398,7 +398,6 @@ input[type=text], select, textarea{
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
-    color:black;
 }
 
 .footer-link:hover{
@@ -406,8 +405,12 @@ input[type=text], select, textarea{
 }
 
 .footer-copy{
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: var(--small-font-size);
     text-align: center;
-    color:#fff;
+}
+
+.footer-title,.footer-sub, .footer-link{
+
+    color:#fff
 }
